@@ -1,0 +1,17 @@
+cd OpenROAD-flow-scripts/flow/designs/src/
+mkdir magnitude_comparator_8bit
+cd magnitude_comparator_8bit
+vi magnitude_comparator_8bit.v
+ls
+cd ../../
+cd sky130hd/
+ls
+mkdir magnitude_comparator_8bit
+ls
+cd magnitude_comparator_8bit
+cp -rf ../gcd/* .
+ls
+gvim config.mk
+cd ../../../
+make DESIGN_CONFIG=./designs/sky130hd/magnitude_comparator_8bit/config.mk
+make DESIGN_CONFIG=./designs/sky130hd/magnitude_comparator_8bit/config.mk gui_final
