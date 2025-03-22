@@ -80,5 +80,5 @@ This project implements an **8-bit magnitude comparator** using **Verilog and Sy
 ---
 
 ### **Contributors**  
-- **[Chetana](https://github.com/Chetana-Shivaraja)**
+- **[sharanabasavaRG](https://github.com/sharanabasavaRG)**
 
